@@ -11,17 +11,35 @@ h3 {
     color: #3A5A40;
 }
 
+div {
+    text-align: center;
+}
+
 p   {
     /* color: #A3B18A ; */
+    width: 100%;
+    height: 100px;
+    overflow: auto;
 }
 
 ul {
-    /* color: #A3B18A; */
+    list-style: none;
+    text-align: center;
 }
 
 #section1 {
     text-align: center;
-    padding: 60px;
+   
+}
+
+#section1-1 {
+
+}
+
+#section1content {
+    text-align: left;
+    display: inline-block;
+    max-width: 60%;
 }
 
 .button {
@@ -30,4 +48,12 @@ ul {
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 4px;
+}
+
+.perfil-serio {
+    float: inline-start;
+}
+
+footer {
+    text-align: center;
 }
