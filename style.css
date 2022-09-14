@@ -22,9 +22,10 @@ p   {
     overflow: auto;
 }
 
-ul {
+.skills {
     list-style: none;
     text-align: center;
+
 }
 
 #section1 {
@@ -32,8 +33,8 @@ ul {
    
 }
 
-#section1-1 {
-
+#section3 {
+    margin: 5% 0 0 0;
 }
 
 #section1content {
@@ -50,10 +51,11 @@ ul {
     border-radius: 4px;
 }
 
-.perfil-serio {
-    float: inline-start;
-}
-
 footer {
     text-align: center;
+}
+
+#competencias {
+    display: inline-block;
+    
 }
